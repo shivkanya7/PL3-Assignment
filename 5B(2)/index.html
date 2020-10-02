@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Code</title>
+    <style>
+      h2,
+      h3,
+      h4,
+      section {
+        padding-left: 5%;
+        padding-right: 5%;
+      }
+   
+      p{
+          padding-left: 20%;
+          text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    <header style="text-align: center">
+      <h1>***Program***</h1>
+    </header>
+    <hr />
+    <h2>Write a program in any language to find the sum of the series 1
+        +11 + 111 + 1111 + ... n terms.
+        </h2>
+    <section>
+      <h3 style="text-align: left">Java code for the problem statement </h3>
+      <code>
+        <pre style="border: 2px solid cornflowerblue"  >
+        // Java program to find the sum of 
+        // the series 1+11+111+1111+.... 
+        import java.io.*; 
+
+        class GFG 
+        { 
+
+	// Function for finding summation 
+	static int summation(int n) 
+	{ 
+		int sum = 0, j = 1; 
+		for (int i = 1; i <= n; i++) 
+		{ 
+			sum = sum + j; 
+			j = (j * 10) + 1; 
+		} 
+
+		return sum; 
+	} 
+
+	// Driver Code 
+	public static void main(String args[]) 
+	{ 
+		int n = 5; 
+		System.out.println(summation(n)); 
+	} 
+        } 
+
+
+        </pre>
+      </code>
+      <p><s>Please press <kbd>Ctrl</kbd> + <kbd>R</kbd> to re-render  page.</s>></p>
+    </section>
+    <section>
+      <h3>Sample Input and Output:</h3>
+      <samp>
+        <pre><strong>
+            Input : 3    
+            Output : 1 + 11 + 111 +....
+            Total sum is : 123
+            </strong>
+        </pre>
+      </samp>
+
+      <samp>
+        <pre>
+        <strong>
+            Input : 4
+            Output : 1 + 11 + 111 + 1111 +..... 
+            Total sum is : 1234
+        </strong>
+        </pre>
+      </samp>
+
+      
+    </section>
+    <section>
+
+        <h3>Complexity :</h3>
+        <p>Complexity is:<strong>O(n)</strong></p>
+        
+
+        
+    </section>
+    <hr>
+    <footer>
+        <p>For detailed Explanation refer:
+        <a href="https://www.geeksforgeeks.org/find-sum-series-1111111111-upto-n-terms/">Click here</a></p>
+        
+    </footer>
+  </body>
+</html>
