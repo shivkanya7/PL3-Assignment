@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+section { 
+  display: block;
+  
+}
+fieldset {
+  background-color: #eeeeee;
+}
+
+legend {
+  background-color: gray;
+
+  color: white;
+  padding: 5px 10px;
+}
+
+</style>
+</head>
+<body>
+<section>
+  <h1 style="text-align: center;">MPSC Exam Online Registration</h1>
+</section>
+
+<form method="GET" action="6B.html" autocomplete="on">
+    <fieldset>
+       
+      <legend>Student Information:</legend>
+      <label for="fname">First name:</label>
+      <input type="text" id="fname" name="fname"><br><br>
+      <label for="lname">Last name:</label>
+      <input type="text" id="lname" name="lname"><br><br>
+      <label for="lname">Parent's name:</label>
+      <input type="text" id="pname" name="pname"><br><br>
+      <label for="email">Email:</label>
+      <input type="email"placeholder="abcd@gmail.com" id="email" name="email"><br><br>
+      <label for="tele">Mobile No:</label>
+      <input type="tel" id="phone" name="phone" required><br><br>
+      <label for="birthday">Birth Date:</label>
+      <input type="date" id="birthday" name="birthday"><br><br>
+      <label for="id">ID proof :</label>
+      <select id="idproof">
+        <option value="Collegeid">Collegeidcard</option>
+        <option value="Pancard">Pancard</option>
+        
+        <option value="Adharcard" selected>Adharcard</option>
+      </select><br><br>
+      <label for="address">Address:</label>
+      <textarea id="address" name="address"  rows="6" cols="10" placeholder="At post.Nalegaon tq.Chakur dist.Latur"></textarea>
+    </fieldset>
+    <fieldset>
+        
+         <legend>Educational Information:</legend>
+         <label for="id">Qualification:</label>
+         <select id="qualification" id="qualify" name="qualify" multiple>
+            <option value="btech">Btech</option>
+            <option value="mtech">Mtech</option>
+            <option value="mtech">BCA</option>
+            
+
+        <option value="Btech" selected>Btech</option>
+          </select><br><br>
+          <label for="id">Branch:</label>
+          <select id="branch">
+            <option value="btech">Civil</option>
+            <option value="mtech">Computer Science</option>
+            <option value="mtech">Mechanical</option>
+            <option value="mtech">Electrical</option>
+            
+
+           </select><br><br>
+           <label for="clg">Choose College:</label>
+           <input list="clg" name="clg" required>
+           <datalist id="clg">
+             <option value="WCE"></option>
+             <option value="COEP"></option>
+             <option value="VJTI"></option>
+             <option value="VIT"></option></datalist>
+           <br><br>
+          <label for="id">Exam Seat Number:</label>
+          <input type="number"><br><br>
+         
+
+          
+    </fieldset>
+   
+    <fieldset>
+        
+        <legend>Exam Preferences:</legend>
+        <label for="mpscbranch">MPSC exam paper branch</label>
+        <select name="branches" size="5" required>
+          <option value="State Service Exam">
+            State Service Exam
+          </option>
+          <option value="Civil Judge and Judicial Magistrate Exam">
+            Civil Judge and Judicial Magistrate Exam
+          </option>
+          <option value="Assistant Motor Vehicle Inspector Exam">
+            Assistant Motor Vehicle Inspector Exam
+          </option>
+          <option value="Assistant Section Officer Exam">
+            Assistant Section Officer Exam
+          </option>
+          <option value="Maharashtra Subordinate Services Combined Exam">
+            Maharashtra Subordinate Services Combined Exam 
+          </option>
+          <option value="Police Sub Inspector Exam">
+            Police Sub Inspector Exam
+          </option>
+          </select><br><br>
+
+          <label for="City">Select center city: </label>
+        <select name="city">
+          <optgroup label="Marathvada-Region">
+            <option value="Nanded">Nanded</option>
+            <option value="Latur">Latur</option>
+            <option value="Usmanabad">Usmanabad</option>
+            
+          </optgroup>
+          <optgroup label="West Maharashtra Region">
+            <option value="Sangli">Sangli</option>
+            <option value="	Pune">Pune</option>
+            <option value="	Satara">Satara</option>
+           
+          </optgroup>
+        </select>
+    
+   </fieldset><br><br>
+  
+   <input type="image" src="in.jpg" alt="imageinform" width="60" height="48" onclick="alert('Form submitted successfully')">
+   <input type="image" style="margin:5px;"src="out.jpg" alt="imageinform" width="48" height="48" onclick="alert('Form reset')">
+
+
+  </form>
+
+</body>
+</html>
