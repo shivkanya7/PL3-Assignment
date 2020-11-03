@@ -1,0 +1,108 @@
+<!DOCTYPE html> 
+<html lang=en-US> 
+	<head> 
+        <title>link page</title>
+        <meta charset="UTF-8">
+	<style> 
+        body
+        {
+            background-color: rgb(36, 29, 34);
+            color:blanchedalmond;
+        }
+        .topnav {
+        background-color: #333;
+        overflow: hidden;
+        }
+
+        .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        }
+
+        
+        .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+        }
+
+        
+        .topnav a.active {
+        background-color: violet;
+        color: white;
+        }
+
+        dl {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+    }
+        
+    </style> 
+	</head> 
+	
+	<body> 
+        <div class="topnav">
+            <a class="active" href="#home">Home</a>
+            <a href="link.html">List</a>
+            <a href="Campus.html">Campus Placement</a>
+            <a href="Month.html">Monthly Expense</a>
+        </div>
+        <header>
+              <h1 style="text-align: center;">...LIST TYPE...</h1>
+        </header>
+        <hr><hr>
+        <br>
+        <section>
+            <h2>Features of Java Programming :</h2>
+            <ul style="list-style-type:disk;">
+                <li>Object-Oriented</li>
+                <li>Platform independent</li>
+                <li>Secured</li>
+                <li>Robust</li>
+                <li>High Performance</li>
+                <li>Interpreted</li>
+                <li>Multithreaded</li>
+              </ul>
+        </section>
+        <hr><br>
+        <section>
+            <h2>Favourite Books :</h2>
+            <ol start="4" reversed>
+                <li>Shyamachi aai</li>
+                <li>Sudha Murthy</li>
+                <li>Asa mi asa mi</li>
+                <li>Wings of Fire</li>
+                <li>Vyakti aani Valli</li>
+               
+             </ol>   
+        </section>
+        <hr><br>
+        <section>
+            <h2>Networking Terms :</h2>
+            <br>
+            <dl >
+                <dt>LAN</dt>
+                <dd>LAN stands for “local area network”. It refers to a network or a portion of a network that is not publicly accessible to the greater internet. A home or office network is an example of a LAN.</dd>
+                <dt>WAN</dt>
+                <dd>WAN stands for “wide area network”. It means a network that is much more extensive than a LAN. While WAN is the relevant term to use to describe large, dispersed networks in general, it is usually meant to mean the internet, as a whole.</dd>
+                <dt>Network Interface</dt>
+                <dd>A network interface can refer to any kind of software interface to networking hardware. For instance, if you have two network cards in your computer, you can control and configure each network interface associated with them individually.</dd>
+                <dt>Internet</dt>
+                <dd>It is a computer network system that connects the computers of the world. It is normally connecting through WAN and LAN.</dd>
+            </dl>
+        </section>
+        <hr><hr>
+        <footer>
+            &#169; Copyright 2020 <br>
+            <p>Designed By: Shivkanya Birajdar</p>
+                
+        </footer>
+            
+    </body> 
+</html>					 
